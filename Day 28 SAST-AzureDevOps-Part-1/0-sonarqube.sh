@@ -10,7 +10,7 @@ sudo su - postgres
 # 2. Configure PostgreSQL
 Edit postgresql.conf:
 
-sudo nano /var/lib/postgresql/sonarqube/postgresql.conf
+sudo vim /var/lib/postgresql/sonarqube/postgresql.conf
 
 Add:
 
@@ -19,7 +19,7 @@ port = 5433
 unix_socket_directories = '/var/run/postgresql'
 
 Edit pg_hba.conf:
-sudo nano /var/lib/postgresql/sonarqube/pg_hba.conf
+sudo vim /var/lib/postgresql/sonarqube/pg_hba.conf
 
 Add:
 
