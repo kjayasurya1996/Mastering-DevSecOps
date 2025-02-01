@@ -92,7 +92,7 @@ sonar.jdbc.url=jdbc:postgresql://localhost:5433/sonarqube
 # 7. System Configuration
 Create SonarQube service:
 
-sudo nano /etc/systemd/system/sonar.service
+sudo vim /etc/systemd/system/sonar.service
 
 Add:
 
@@ -115,7 +115,7 @@ WantedBy=multi-user.target
 
 Configure system limits:
 
-sudo nano /etc/sysctl.conf
+sudo vim /etc/sysctl.conf
 
 Add:
 
@@ -124,7 +124,7 @@ fs.file-max=65536
 
 Configure user limits:
 
-sudo nano /etc/security/limits.conf
+sudo vim /etc/security/limits.conf
 
 Add:
 
