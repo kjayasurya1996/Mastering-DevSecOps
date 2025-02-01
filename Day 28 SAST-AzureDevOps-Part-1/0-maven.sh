@@ -1,5 +1,5 @@
-Create T2-xl
-create Simplerecord for Jfrog with publicIP
+-------------#Create T2-xl large instance#------------------------
+-------------#create Simplerecord for Jfrog with publicIP
 sudo apt update && apt install -y openjdk-17-jdk && sudo apt update && apt install -y maven
 
 clone same in local from powershell and push to azuredevops repo
